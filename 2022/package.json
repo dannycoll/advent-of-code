@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Advent of Code 2022 Solutions",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },

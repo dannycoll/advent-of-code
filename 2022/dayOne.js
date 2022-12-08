@@ -1,12 +1,7 @@
-import cookie from "./cookie.js";
+import { getInputData } from "./utils.js";
 
 const dayOne = async () => {
-  const data = await fetch("https://adventofcode.com/2022/day/1/input", {
-    headers: {
-      cookie: cookie,
-    },
-  });
-  const text = await data.text();
+  const text = await getInputData(1);
   const lines = text.split("\n");
 
   const elves = [];

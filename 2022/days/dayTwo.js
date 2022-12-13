@@ -1,4 +1,4 @@
-import { getInputData } from "./utils.js";
+import { getInputData } from "../utils.js";
 
 //part one
 //rock > scissors > paper > rock

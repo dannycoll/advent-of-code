@@ -1,4 +1,4 @@
-import { getInputData } from "./utils.js";
+import { getInputData } from "../utils.js";
 
 const formatStacks = (stackStrings) => {
   let numOfStacks = stackStrings[stackStrings.length - 1].split(" ").length;

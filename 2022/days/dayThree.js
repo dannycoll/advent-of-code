@@ -1,4 +1,4 @@
-import { getInputData } from "./utils.js";
+import { getInputData } from "../utils.js";
 
 function cutString(str, index) {
   const result = [str.slice(0, index), str.slice(index)];

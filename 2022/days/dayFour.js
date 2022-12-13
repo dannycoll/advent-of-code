@@ -1,4 +1,4 @@
-import { getInputData } from "./utils.js";
+import { getInputData } from "../utils.js";
 
 const dayFour = async () => {
   const text = await getInputData(4);

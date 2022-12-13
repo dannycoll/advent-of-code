@@ -1,4 +1,4 @@
-import { getInputData } from "./utils.js";
+import { getInputData } from "../utils.js";
 
 const findUniqueChars = (buffer, number) => {
   let uniqueChars = 0;

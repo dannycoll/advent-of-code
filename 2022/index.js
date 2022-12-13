@@ -3,9 +3,10 @@ import dayTwo from "./dayTwo.js";
 import dayThree from "./dayThree.js";
 import dayFour from "./dayFour.js";
 import dayFive from "./dayFive.js";
+import daySix from "./daySix.js";
 
 const main = async () => {
-  dayFive();
+  daySix();
 };
 
 main();

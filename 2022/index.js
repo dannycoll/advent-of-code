@@ -1,7 +1,7 @@
 import * as days from "./days/index.js";
 
 const main = async () => {
-  days.daySix();
+  days.daySeven();
 };
 
 main();
